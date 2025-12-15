@@ -1,4 +1,4 @@
-package message_full;
+package message;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
