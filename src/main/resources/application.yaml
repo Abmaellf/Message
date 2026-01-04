@@ -10,6 +10,6 @@ spring:
       time-to-live: 10000
 app:
   auth:
-    jwks-url: ${JWKS-URL}
+      jwks-url: ${JWKS-URL}
     # Opcional: Configurar timeout de conexão, se necessário
     # timeout: 5000ms
