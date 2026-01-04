@@ -4,5 +4,9 @@ spring:
   redis:
     host: ${MESSAGE_REDIS_HOST:localhost}
     port: ${MESSAGE_REDIS_PORT:6379} # Porta padrão do Redis
+  cache:
+    type: redis
+    redis:
+      time-to-live: 10000
     # Opcional: Configurar timeout de conexão, se necessário
     # timeout: 5000ms
