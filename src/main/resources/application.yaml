@@ -1,3 +1,8 @@
 spring:
   application:
     name: Message
+  redis:
+    host: ${MESSAGE_REDIS_HOST:localhost}
+    port: ${MESSAGE_REDIS_PORT:6379} # Porta padrão do Redis
+    # Opcional: Configurar timeout de conexão, se necessário
+    # timeout: 5000ms
